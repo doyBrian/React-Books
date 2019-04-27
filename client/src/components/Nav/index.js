@@ -25,14 +25,6 @@ function Nav() {
             Saved Books
           </Link>
         </li>
-        <li className="nav-item">
-          <Link
-            to="/books/:id"
-            className={window.location.pathname === "/books/:id" ? "nav-link active" : "nav-link"}
-          >
-            Details
-          </Link>
-        </li>
       </ul>
     </nav>
   );
